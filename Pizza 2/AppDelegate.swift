@@ -9,14 +9,27 @@
 import UIKit
 import CoreData
 
+@available(iOS 10.0, *)
+@available(iOS 10.0, *)
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    func changeRootView() {
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        appDelegate.window = UIWindow(frame: UIScreen.main.bounds)
+        
+        let rootVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SideMenu")
+        appDelegate.window!.rootViewController = rootVC
+        appDelegate.window!.makeKeyAndVisible()
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        changeRootView()
+        
         return true
     }
 

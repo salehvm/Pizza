@@ -7,23 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2446A1339C622CF756B0812F /* Pods_Pizza_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E974B03FB275ECA57D338A3B /* Pods_Pizza_2.framework */; };
+		C64B2613204EB57F001FFDC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C64B2612204EB57F001FFDC3 /* Images.xcassets */; };
+		C64B2617204ED7E1001FFDC3 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64B2616204ED7E1001FFDC3 /* SideMenu.swift */; };
+		C64B2619204ED886001FFDC3 /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64B2618204ED886001FFDC3 /* LeftMenuViewController.swift */; };
+		C64B261B204ED996001FFDC3 /* ListOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64B261A204ED996001FFDC3 /* ListOrdersViewController.swift */; };
+		C64B261E204EE87A001FFDC3 /* RightMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64B261D204EE87A001FFDC3 /* RightMenuViewController.swift */; };
+		C67490B9204825FF00755110 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67490B8204825FF00755110 /* RegisterViewController.swift */; };
+		C67490C22048310600755110 /* KYPopInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C67490BC2048310500755110 /* KYPopInteractiveTransition.m */; };
+		C67490C42048310600755110 /* KYPopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C67490BF2048310500755110 /* KYPopTransition.m */; };
 		C693F6302047EA1F00A6BA93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C693F62F2047EA1F00A6BA93 /* AppDelegate.swift */; };
-		C693F6322047EA1F00A6BA93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C693F6312047EA1F00A6BA93 /* ViewController.swift */; };
+		C693F6322047EA1F00A6BA93 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C693F6312047EA1F00A6BA93 /* AuthViewController.swift */; };
 		C693F6352047EA2000A6BA93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C693F6332047EA2000A6BA93 /* Main.storyboard */; };
 		C693F6382047EA2000A6BA93 /* Pizza_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C693F6362047EA2000A6BA93 /* Pizza_2.xcdatamodeld */; };
-		C693F63A2047EA2000A6BA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C693F6392047EA2000A6BA93 /* Assets.xcassets */; };
 		C693F63D2047EA2000A6BA93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C693F63B2047EA2000A6BA93 /* LaunchScreen.storyboard */; };
+		C693F64B2047EFFD00A6BA93 /* PagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C693F6452047EFFC00A6BA93 /* PagerController.swift */; };
+		C693F64C2047EFFD00A6BA93 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C693F6462047EFFC00A6BA93 /* DateHelper.swift */; };
+		C693F64D2047EFFD00A6BA93 /* VSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C693F6472047EFFC00A6BA93 /* VSTextField.swift */; };
+		C693F64E2047EFFD00A6BA93 /* UILoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C693F6482047EFFD00A6BA93 /* UILoadingViewController.swift */; };
+		C693F64F2047EFFD00A6BA93 /* CommonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C693F6492047EFFD00A6BA93 /* CommonData.swift */; };
+		C693F6502047EFFD00A6BA93 /* HelpFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C693F64A2047EFFD00A6BA93 /* HelpFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08B3932149E31E3E283A55CA /* Pods-Pizza 2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pizza 2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pizza 2/Pods-Pizza 2.debug.xcconfig"; sourceTree = "<group>"; };
+		C64B2612204EB57F001FFDC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C64B2616204ED7E1001FFDC3 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		C64B2618204ED886001FFDC3 /* LeftMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		C64B261A204ED996001FFDC3 /* ListOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOrdersViewController.swift; sourceTree = "<group>"; };
+		C64B261D204EE87A001FFDC3 /* RightMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightMenuViewController.swift; sourceTree = "<group>"; };
+		C67490B8204825FF00755110 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C67490BB2048310400755110 /* Pizza 2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pizza 2-Bridging-Header.h"; sourceTree = "<group>"; };
+		C67490BC2048310500755110 /* KYPopInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYPopInteractiveTransition.m; sourceTree = "<group>"; };
+		C67490BF2048310500755110 /* KYPopTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYPopTransition.m; sourceTree = "<group>"; };
+		C67490C02048310600755110 /* KYPopTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYPopTransition.h; sourceTree = "<group>"; };
+		C67490C12048310600755110 /* KYPopInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYPopInteractiveTransition.h; sourceTree = "<group>"; };
 		C693F62C2047EA1F00A6BA93 /* Pizza 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pizza 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C693F62F2047EA1F00A6BA93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C693F6312047EA1F00A6BA93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C693F6312047EA1F00A6BA93 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		C693F6342047EA2000A6BA93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C693F6372047EA2000A6BA93 /* Pizza_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pizza_2.xcdatamodel; sourceTree = "<group>"; };
-		C693F6392047EA2000A6BA93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C693F63C2047EA2000A6BA93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C693F63E2047EA2000A6BA93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C693F6452047EFFC00A6BA93 /* PagerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerController.swift; sourceTree = "<group>"; };
+		C693F6462047EFFC00A6BA93 /* DateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		C693F6472047EFFC00A6BA93 /* VSTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSTextField.swift; sourceTree = "<group>"; };
+		C693F6482047EFFD00A6BA93 /* UILoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILoadingViewController.swift; sourceTree = "<group>"; };
+		C693F6492047EFFD00A6BA93 /* CommonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonData.swift; sourceTree = "<group>"; };
+		C693F64A2047EFFD00A6BA93 /* HelpFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpFunctions.swift; sourceTree = "<group>"; };
+		D7803CE408935F124416B775 /* Pods-Pizza 2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pizza 2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pizza 2/Pods-Pizza 2.release.xcconfig"; sourceTree = "<group>"; };
+		E974B03FB275ECA57D338A3B /* Pods_Pizza_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pizza_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +64,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2446A1339C622CF756B0812F /* Pods_Pizza_2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D37A2CF479CBB3825DC5B4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E974B03FB275ECA57D338A3B /* Pods_Pizza_2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D6139110531BE37482C2874 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08B3932149E31E3E283A55CA /* Pods-Pizza 2.debug.xcconfig */,
+				D7803CE408935F124416B775 /* Pods-Pizza 2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C67490BA204830EE00755110 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				C67490C12048310600755110 /* KYPopInteractiveTransition.h */,
+				C67490BC2048310500755110 /* KYPopInteractiveTransition.m */,
+				C67490C02048310600755110 /* KYPopTransition.h */,
+				C67490BF2048310500755110 /* KYPopTransition.m */,
+				C67490BB2048310400755110 /* Pizza 2-Bridging-Header.h */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
 		C693F6232047EA1F00A6BA93 = {
 			isa = PBXGroup;
 			children = (
 				C693F62E2047EA1F00A6BA93 /* Pizza 2 */,
 				C693F62D2047EA1F00A6BA93 /* Products */,
+				2D6139110531BE37482C2874 /* Pods */,
+				0D37A2CF479CBB3825DC5B4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +121,35 @@
 		C693F62E2047EA1F00A6BA93 /* Pizza 2 */ = {
 			isa = PBXGroup;
 			children = (
+				C67490BA204830EE00755110 /* class */,
+				C693F6442047EFF000A6BA93 /* Tools */,
 				C693F62F2047EA1F00A6BA93 /* AppDelegate.swift */,
-				C693F6312047EA1F00A6BA93 /* ViewController.swift */,
+				C693F6312047EA1F00A6BA93 /* AuthViewController.swift */,
+				C67490B8204825FF00755110 /* RegisterViewController.swift */,
 				C693F6332047EA2000A6BA93 /* Main.storyboard */,
-				C693F6392047EA2000A6BA93 /* Assets.xcassets */,
 				C693F63B2047EA2000A6BA93 /* LaunchScreen.storyboard */,
 				C693F63E2047EA2000A6BA93 /* Info.plist */,
 				C693F6362047EA2000A6BA93 /* Pizza_2.xcdatamodeld */,
+				C64B2612204EB57F001FFDC3 /* Images.xcassets */,
+				C64B2616204ED7E1001FFDC3 /* SideMenu.swift */,
+				C64B2618204ED886001FFDC3 /* LeftMenuViewController.swift */,
+				C64B261A204ED996001FFDC3 /* ListOrdersViewController.swift */,
+				C64B261D204EE87A001FFDC3 /* RightMenuViewController.swift */,
 			);
 			path = "Pizza 2";
+			sourceTree = "<group>";
+		};
+		C693F6442047EFF000A6BA93 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				C693F6492047EFFD00A6BA93 /* CommonData.swift */,
+				C693F6462047EFFC00A6BA93 /* DateHelper.swift */,
+				C693F64A2047EFFD00A6BA93 /* HelpFunctions.swift */,
+				C693F6452047EFFC00A6BA93 /* PagerController.swift */,
+				C693F6482047EFFD00A6BA93 /* UILoadingViewController.swift */,
+				C693F6472047EFFC00A6BA93 /* VSTextField.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C693F6412047EA2000A6BA93 /* Build configuration list for PBXNativeTarget "Pizza 2" */;
 			buildPhases = (
+				9CBCD261905E4D31837BA3F1 /* [CP] Check Pods Manifest.lock */,
 				C693F6282047EA1F00A6BA93 /* Sources */,
 				C693F6292047EA1F00A6BA93 /* Frameworks */,
 				C693F62A2047EA1F00A6BA93 /* Resources */,
+				831737ACE571973C11BFC8BF /* [CP] Embed Pods Frameworks */,
+				4BFE44F3CD2C8D31395D627E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +187,7 @@
 				TargetAttributes = {
 					C693F62B2047EA1F00A6BA93 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,22 +215,140 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C64B2613204EB57F001FFDC3 /* Images.xcassets in Resources */,
 				C693F63D2047EA2000A6BA93 /* LaunchScreen.storyboard in Resources */,
-				C693F63A2047EA2000A6BA93 /* Assets.xcassets in Resources */,
 				C693F6352047EA2000A6BA93 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4BFE44F3CD2C8D31395D627E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pizza 2/Pods-Pizza 2-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pizza 2/Pods-Pizza 2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		831737ACE571973C11BFC8BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pizza 2/Pods-Pizza 2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/DatePickerDialog/DatePickerDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/ImagePicker/ImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Localize-Swift/Localize_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/McPicker/McPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/Presentr/Presentr.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/RESideMenu/RESideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/StarryStars/StarryStars.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/UIWindowTransitions/UIWindowTransitions.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DatePickerDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/McPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Presentr.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RESideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StarryStars.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIWindowTransitions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pizza 2/Pods-Pizza 2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CBCD261905E4D31837BA3F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pizza 2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C693F6282047EA1F00A6BA93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C693F6322047EA1F00A6BA93 /* ViewController.swift in Sources */,
+				C67490C42048310600755110 /* KYPopTransition.m in Sources */,
+				C693F64E2047EFFD00A6BA93 /* UILoadingViewController.swift in Sources */,
+				C67490B9204825FF00755110 /* RegisterViewController.swift in Sources */,
+				C693F64C2047EFFD00A6BA93 /* DateHelper.swift in Sources */,
+				C693F6322047EA1F00A6BA93 /* AuthViewController.swift in Sources */,
+				C67490C22048310600755110 /* KYPopInteractiveTransition.m in Sources */,
 				C693F6382047EA2000A6BA93 /* Pizza_2.xcdatamodeld in Sources */,
 				C693F6302047EA1F00A6BA93 /* AppDelegate.swift in Sources */,
+				C64B2617204ED7E1001FFDC3 /* SideMenu.swift in Sources */,
+				C693F64D2047EFFD00A6BA93 /* VSTextField.swift in Sources */,
+				C64B261E204EE87A001FFDC3 /* RightMenuViewController.swift in Sources */,
+				C693F6502047EFFD00A6BA93 /* HelpFunctions.swift in Sources */,
+				C693F64F2047EFFD00A6BA93 /* CommonData.swift in Sources */,
+				C64B261B204ED996001FFDC3 /* ListOrdersViewController.swift in Sources */,
+				C64B2619204ED886001FFDC3 /* LeftMenuViewController.swift in Sources */,
+				C693F64B2047EFFD00A6BA93 /* PagerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,14 +483,21 @@
 		};
 		C693F6422047EA2000A6BA93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B3932149E31E3E283A55CA /* Pods-Pizza 2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GB3B4GR6LQ;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WSW3H3L3P9;
 				INFOPLIST_FILE = "Pizza 2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.salehmajidov.Pizza-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pizza 2/class/Pizza 2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -291,14 +505,20 @@
 		};
 		C693F6432047EA2000A6BA93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7803CE408935F124416B775 /* Pods-Pizza 2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GB3B4GR6LQ;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WSW3H3L3P9;
 				INFOPLIST_FILE = "Pizza 2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.salehmajidov.Pizza-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pizza 2/class/Pizza 2-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
