@@ -15,10 +15,7 @@ class SideMenu: RESideMenu {
         self.menuPreferredStatusBarStyle = .lightContent
         self.contentViewController = storyboard?.instantiateViewController(withIdentifier: "tabbar")
         self.leftMenuViewController = storyboard?.instantiateViewController(withIdentifier: "LeftMenuViewController") as! LeftMenuViewController
-          self.rightMenuViewController = storyboard?.instantiateViewController(withIdentifier: "RightMenuViewController") as! RightMenuViewController
-        
-        
-        
+        self.rightMenuViewController = storyboard?.instantiateViewController(withIdentifier: "RightMenuViewController") as! RightMenuViewController
 //        self.parallaxEnabled = false
 //        self.contentViewScaleValue = 1
 //        self.contentViewInPortraitOffsetCenterX = 120
@@ -30,6 +27,7 @@ class SideMenu: RESideMenu {
         // Do any additional setup after loading the view.
     }
 
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

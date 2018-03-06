@@ -16,6 +16,7 @@
 		C67490B9204825FF00755110 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67490B8204825FF00755110 /* RegisterViewController.swift */; };
 		C67490C22048310600755110 /* KYPopInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C67490BC2048310500755110 /* KYPopInteractiveTransition.m */; };
 		C67490C42048310600755110 /* KYPopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C67490BF2048310500755110 /* KYPopTransition.m */; };
+		C67CB613204F42AC0079BEFB /* PizzaListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67CB612204F42AC0079BEFB /* PizzaListViewController.swift */; };
 		C693F6302047EA1F00A6BA93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C693F62F2047EA1F00A6BA93 /* AppDelegate.swift */; };
 		C693F6322047EA1F00A6BA93 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C693F6312047EA1F00A6BA93 /* AuthViewController.swift */; };
 		C693F6352047EA2000A6BA93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C693F6332047EA2000A6BA93 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		C67490BF2048310500755110 /* KYPopTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYPopTransition.m; sourceTree = "<group>"; };
 		C67490C02048310600755110 /* KYPopTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYPopTransition.h; sourceTree = "<group>"; };
 		C67490C12048310600755110 /* KYPopInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYPopInteractiveTransition.h; sourceTree = "<group>"; };
+		C67CB612204F42AC0079BEFB /* PizzaListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaListViewController.swift; sourceTree = "<group>"; };
 		C693F62C2047EA1F00A6BA93 /* Pizza 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pizza 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C693F62F2047EA1F00A6BA93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C693F6312047EA1F00A6BA93 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,15 @@
 			path = class;
 			sourceTree = "<group>";
 		};
+		C67CB614204F43970079BEFB /* TabController */ = {
+			isa = PBXGroup;
+			children = (
+				C64B261A204ED996001FFDC3 /* ListOrdersViewController.swift */,
+				C67CB612204F42AC0079BEFB /* PizzaListViewController.swift */,
+			);
+			path = TabController;
+			sourceTree = "<group>";
+		};
 		C693F6232047EA1F00A6BA93 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +132,7 @@
 		C693F62E2047EA1F00A6BA93 /* Pizza 2 */ = {
 			isa = PBXGroup;
 			children = (
+				C67CB614204F43970079BEFB /* TabController */,
 				C67490BA204830EE00755110 /* class */,
 				C693F6442047EFF000A6BA93 /* Tools */,
 				C693F62F2047EA1F00A6BA93 /* AppDelegate.swift */,
@@ -133,7 +145,6 @@
 				C64B2612204EB57F001FFDC3 /* Images.xcassets */,
 				C64B2616204ED7E1001FFDC3 /* SideMenu.swift */,
 				C64B2618204ED886001FFDC3 /* LeftMenuViewController.swift */,
-				C64B261A204ED996001FFDC3 /* ListOrdersViewController.swift */,
 				C64B261D204EE87A001FFDC3 /* RightMenuViewController.swift */,
 			);
 			path = "Pizza 2";
@@ -346,6 +357,7 @@
 				C64B261E204EE87A001FFDC3 /* RightMenuViewController.swift in Sources */,
 				C693F6502047EFFD00A6BA93 /* HelpFunctions.swift in Sources */,
 				C693F64F2047EFFD00A6BA93 /* CommonData.swift in Sources */,
+				C67CB613204F42AC0079BEFB /* PizzaListViewController.swift in Sources */,
 				C64B261B204ED996001FFDC3 /* ListOrdersViewController.swift in Sources */,
 				C64B2619204ED886001FFDC3 /* LeftMenuViewController.swift in Sources */,
 				C693F64B2047EFFD00A6BA93 /* PagerController.swift in Sources */,
@@ -499,7 +511,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "Pizza 2/class/Pizza 2-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -520,7 +532,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Pizza 2/class/Pizza 2-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

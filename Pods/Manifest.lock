@@ -1,0 +1,148 @@
+PODS:
+  - Alamofire (4.7.0)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - CardIO (5.4.1)
+  - DatePickerDialog (2.0)
+  - ESTabBarController-swift (2.6.1)
+  - FBSDKCoreKit (4.31.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.31.0):
+    - FBSDKCoreKit
+  - Firebase/Analytics (4.9.0):
+    - Firebase/Core
+  - Firebase/Core (4.9.0):
+    - FirebaseAnalytics (= 4.0.9)
+    - FirebaseCore (= 4.0.15)
+  - Firebase/Messaging (4.9.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 2.1.0)
+  - FirebaseAnalytics (4.0.9):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseCore (4.0.15):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseInstanceID (2.0.9):
+    - FirebaseCore (~> 4.0)
+  - FirebaseMessaging (2.1.0):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - GoogleSignIn (4.1.2):
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GoogleToolboxForMac/NSString+URLArguments (~> 2.1)
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - GoogleToolboxForMac/Logger (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/NSData+zlib (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.3):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.3)
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.3)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.3)
+  - GTMOAuth2 (1.1.6):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.14):
+    - GTMSessionFetcher/Full (= 1.1.14)
+  - GTMSessionFetcher/Core (1.1.14)
+  - GTMSessionFetcher/Full (1.1.14):
+    - GTMSessionFetcher/Core (= 1.1.14)
+  - ImagePicker (3.0.0)
+  - Kingfisher (4.6.3)
+  - Localize-Swift (2.0.0)
+  - McPicker (0.5.2)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - NVActivityIndicatorView (4.1.1):
+    - NVActivityIndicatorView/Presenter (= 4.1.1)
+  - NVActivityIndicatorView/Presenter (4.1.1)
+  - Presentr (1.3)
+  - Protobuf (3.5.0)
+  - ReachabilitySwift (4.1.0)
+  - RESideMenu (4.0.7)
+  - SideMenu (3.1.5)
+  - StarryStars (1.0.0)
+  - SwiftDate (4.5.1)
+  - SwiftMessages (4.1.0)
+  - SwiftyJSON (4.0.0)
+  - UIWindowTransitions (0.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - CardIO
+  - DatePickerDialog
+  - ESTabBarController-swift
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - Firebase/Analytics
+  - Firebase/Core
+  - Firebase/Messaging
+  - GoogleSignIn
+  - ImagePicker
+  - Kingfisher
+  - Localize-Swift
+  - McPicker
+  - NVActivityIndicatorView
+  - Presentr
+  - ReachabilitySwift
+  - RESideMenu (~> 4.0.7)
+  - SideMenu
+  - StarryStars
+  - SwiftDate
+  - SwiftMessages
+  - SwiftyJSON
+  - UIWindowTransitions
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
+  DatePickerDialog: 5e1c24d9fe6506cd45dbc573eed7b0a251b1c09d
+  ESTabBarController-swift: 1e629e60bc6a87c1ea92a5309489b9f8dde15fa2
+  FBSDKCoreKit: 54db4c581123745d25a9f7c1608020b3aeabd118
+  FBSDKLoginKit: 95a252ddffd6919c0f132a02292f0824616d8709
+  Firebase: 632216af3ed7f31e3be34776947fdc7546cfb572
+  FirebaseAnalytics: 388b630c15713f5dbf364071f5f3d6077fb52f4e
+  FirebaseCore: 3bd047463058fa6b5d312c97502c52e45401cdfb
+  FirebaseInstanceID: d2058a35e9bebda1b6dd42486b84917bde552a9d
+  FirebaseMessaging: 2bafab2d0f3ab3dfd753101c2c32995c2051b5da
+  GoogleSignIn: d9ef55b10f0aa401a5de2747f59b725e4b9732ac
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  GTMOAuth2: c77fe325e4acd453837e72d91e3b5f13116857b2
+  GTMSessionFetcher: 390ea358e5a0d0133153806f744662dad933d06b
+  ImagePicker: 973953c25960fe04729a7082a56194321c6762d2
+  Kingfisher: 98e6d5b5e807645743e8ed5ececd25d688d38452
+  Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
+  McPicker: 3c21f279480d04ba7f8a4ae8445f59c7e0931a99
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  NVActivityIndicatorView: 60109b9bf46efc2e71ab81453196ccdfdfeea870
+  Presentr: 3f0825a42cb32ecd8fc6b6d0b0de87d7d0b42482
+  Protobuf: 8a9838fba8dae3389230e1b7f8c104aa32389c03
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  RESideMenu: f24c508404b49c667344c54aba7e590883533958
+  SideMenu: 47dbf9e4d878062d8994aed43f6e4bf6c1fea30b
+  StarryStars: 1d5bdde3060a6ab5c68c8229506040ee297efceb
+  SwiftDate: 7b56d42a221f582047287deb256b23fc5ed49a60
+  SwiftMessages: 1bacc783c8f10bdfdc57c14860cae8a1f1fa6591
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  UIWindowTransitions: 95836d4d85b824227909ada40a2cbf885eb26c69
+
+PODFILE CHECKSUM: c2f1ada1ccde119ae6bb944941ef4c66775fe398
+
+COCOAPODS: 1.4.0
