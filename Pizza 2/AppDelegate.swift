@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         UIApplication.shared.isStatusBarHidden = true
         
-        changeRootView()
+//        changeRootView()
         
         return true
     }

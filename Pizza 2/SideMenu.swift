@@ -16,9 +16,9 @@ class SideMenu: RESideMenu {
         self.contentViewController = storyboard?.instantiateViewController(withIdentifier: "tabbar")
         self.leftMenuViewController = storyboard?.instantiateViewController(withIdentifier: "LeftMenuViewController") as! LeftMenuViewController
         self.rightMenuViewController = storyboard?.instantiateViewController(withIdentifier: "RightMenuViewController") as! RightMenuViewController
-//        self.parallaxEnabled = false
-//        self.contentViewScaleValue = 1
-//        self.contentViewInPortraitOffsetCenterX = 120
+        self.parallaxEnabled = false
+        self.contentViewScaleValue = 1
+        self.contentViewInPortraitOffsetCenterX = 120
     }
     
     override func viewDidLoad() {

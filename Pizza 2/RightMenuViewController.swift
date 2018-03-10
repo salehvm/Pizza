@@ -9,11 +9,27 @@
 import UIKit
 
 class RightMenuViewController: UIViewController {
-
+    
+    //MARK: - IBOutles
+    
+    @IBOutlet weak var homeView: UIView!
+    @IBOutlet weak var profileView: UIView!
+    @IBOutlet weak var deliveryView: UIView!
+    @IBOutlet weak var pizzalistView: UIView!
+    @IBOutlet weak var historyView: UIView!
+    @IBOutlet weak var contactView: UIView!
+    @IBOutlet weak var logoutView: UIView!
+    
+    //MARK: - Variables
+    
+    var tapGestureRecognizer = UITapGestureRecognizer()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        initVars()
+        initViews()
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,6 +38,14 @@ class RightMenuViewController: UIViewController {
     }
     
 
+    //MARK: - Click Handles
+    
+    func initVars(){
+        self.tapGestureRecognizer.numberOfTapsRequired = 1
+    }
+    
+    func initViews(){}
+    
     /*
     // MARK: - Navigation
 

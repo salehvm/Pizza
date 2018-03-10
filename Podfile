@@ -70,4 +70,13 @@ pod 'ESTabBarController-swift'
 
 pod 'RESideMenu', '~> 4.0.7'
 
+pod 'ScalingCarousel'
+
+pod 'CreditCardForm'
+
+pod 'Stripe'
+
+pod 'PullToMakeSoup', '~> 2.0'
+pod 'PullToRefresher', :git => 'https://github.com/MindSea/PullToRefresh', :branch => 'fix-simultaneous-access'
+
 end
