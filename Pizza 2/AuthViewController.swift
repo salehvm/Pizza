@@ -33,6 +33,8 @@ class AuthViewController: UIViewController {
         initViews()
         
     }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
