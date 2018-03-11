@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2446A1339C622CF756B0812F /* Pods_Pizza_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E974B03FB275ECA57D338A3B /* Pods_Pizza_2.framework */; };
 		C602A9D5204FC6AF0011AE89 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C602A9D4204FC6AF0011AE89 /* HomeViewController.swift */; };
-		C61446FE205487AB00CDA547 /* PullToMakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61446FD205487AB00CDA547 /* PullToMakeViewController.swift */; };
 		C638CC34204FF4E200AC7DF3 /* ScalingCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C638CC33204FF4E200AC7DF3 /* ScalingCarouselView.swift */; };
 		C64B2613204EB57F001FFDC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C64B2612204EB57F001FFDC3 /* Images.xcassets */; };
 		C64B2617204ED7E1001FFDC3 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64B2616204ED7E1001FFDC3 /* SideMenu.swift */; };
@@ -44,7 +43,6 @@
 /* Begin PBXFileReference section */
 		08B3932149E31E3E283A55CA /* Pods-Pizza 2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pizza 2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pizza 2/Pods-Pizza 2.debug.xcconfig"; sourceTree = "<group>"; };
 		C602A9D4204FC6AF0011AE89 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		C61446FD205487AB00CDA547 /* PullToMakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToMakeViewController.swift; sourceTree = "<group>"; };
 		C638CC33204FF4E200AC7DF3 /* ScalingCarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScalingCarouselView.swift; sourceTree = "<group>"; };
 		C64B2612204EB57F001FFDC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C64B2616204ED7E1001FFDC3 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
@@ -178,7 +176,6 @@
 				C602A9D4204FC6AF0011AE89 /* HomeViewController.swift */,
 				C64BBDEB20502A25000FC2C0 /* CardViewController.swift */,
 				C6A1938420528D41009F3119 /* OrderProcessingViewController.swift */,
-				C61446FD205487AB00CDA547 /* PullToMakeViewController.swift */,
 			);
 			path = "Pizza 2";
 			sourceTree = "<group>";
@@ -415,7 +412,6 @@
 				C6A1938520528D41009F3119 /* OrderProcessingViewController.swift in Sources */,
 				C64B261E204EE87A001FFDC3 /* RightMenuViewController.swift in Sources */,
 				C693F6502047EFFD00A6BA93 /* HelpFunctions.swift in Sources */,
-				C61446FE205487AB00CDA547 /* PullToMakeViewController.swift in Sources */,
 				C693F64F2047EFFD00A6BA93 /* CommonData.swift in Sources */,
 				C67CB613204F42AC0079BEFB /* PizzaListViewController.swift in Sources */,
 				C6A1938920529965009F3119 /* CountdownTimer.swift in Sources */,
