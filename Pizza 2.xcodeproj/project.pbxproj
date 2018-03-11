@@ -10,6 +10,7 @@
 		2446A1339C622CF756B0812F /* Pods_Pizza_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E974B03FB275ECA57D338A3B /* Pods_Pizza_2.framework */; };
 		C602A9D5204FC6AF0011AE89 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C602A9D4204FC6AF0011AE89 /* HomeViewController.swift */; };
 		C638CC34204FF4E200AC7DF3 /* ScalingCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C638CC33204FF4E200AC7DF3 /* ScalingCarouselView.swift */; };
+		C645D63920555B4300184F38 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C645D63820555B4300184F38 /* ProfileViewController.swift */; };
 		C64B2613204EB57F001FFDC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C64B2612204EB57F001FFDC3 /* Images.xcassets */; };
 		C64B2617204ED7E1001FFDC3 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64B2616204ED7E1001FFDC3 /* SideMenu.swift */; };
 		C64B2619204ED886001FFDC3 /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64B2618204ED886001FFDC3 /* LeftMenuViewController.swift */; };
@@ -44,6 +45,7 @@
 		08B3932149E31E3E283A55CA /* Pods-Pizza 2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pizza 2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pizza 2/Pods-Pizza 2.debug.xcconfig"; sourceTree = "<group>"; };
 		C602A9D4204FC6AF0011AE89 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C638CC33204FF4E200AC7DF3 /* ScalingCarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScalingCarouselView.swift; sourceTree = "<group>"; };
+		C645D63820555B4300184F38 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		C64B2612204EB57F001FFDC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C64B2616204ED7E1001FFDC3 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		C64B2618204ED886001FFDC3 /* LeftMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +112,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C645D6342055338600184F38 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				C64B2616204ED7E1001FFDC3 /* SideMenu.swift */,
+				C64B2618204ED886001FFDC3 /* LeftMenuViewController.swift */,
+				C64B261D204EE87A001FFDC3 /* RightMenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		C645D635205533A200184F38 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				C693F6312047EA1F00A6BA93 /* AuthViewController.swift */,
+				C67490B8204825FF00755110 /* RegisterViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		C67490BA204830EE00755110 /* class */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,19 +184,17 @@
 				C67490BA204830EE00755110 /* class */,
 				C693F6442047EFF000A6BA93 /* Tools */,
 				C693F62F2047EA1F00A6BA93 /* AppDelegate.swift */,
-				C693F6312047EA1F00A6BA93 /* AuthViewController.swift */,
-				C67490B8204825FF00755110 /* RegisterViewController.swift */,
+				C645D635205533A200184F38 /* Auth */,
 				C693F6332047EA2000A6BA93 /* Main.storyboard */,
 				C693F63B2047EA2000A6BA93 /* LaunchScreen.storyboard */,
 				C693F63E2047EA2000A6BA93 /* Info.plist */,
 				C693F6362047EA2000A6BA93 /* Pizza_2.xcdatamodeld */,
 				C64B2612204EB57F001FFDC3 /* Images.xcassets */,
-				C64B2616204ED7E1001FFDC3 /* SideMenu.swift */,
-				C64B2618204ED886001FFDC3 /* LeftMenuViewController.swift */,
-				C64B261D204EE87A001FFDC3 /* RightMenuViewController.swift */,
+				C645D6342055338600184F38 /* Menu */,
 				C602A9D4204FC6AF0011AE89 /* HomeViewController.swift */,
 				C64BBDEB20502A25000FC2C0 /* CardViewController.swift */,
 				C6A1938420528D41009F3119 /* OrderProcessingViewController.swift */,
+				C645D63820555B4300184F38 /* ProfileViewController.swift */,
 			);
 			path = "Pizza 2";
 			sourceTree = "<group>";
@@ -399,6 +418,7 @@
 				C67490B9204825FF00755110 /* RegisterViewController.swift in Sources */,
 				C693F64C2047EFFD00A6BA93 /* DateHelper.swift in Sources */,
 				C693F6322047EA1F00A6BA93 /* AuthViewController.swift in Sources */,
+				C645D63920555B4300184F38 /* ProfileViewController.swift in Sources */,
 				C602A9D5204FC6AF0011AE89 /* HomeViewController.swift in Sources */,
 				C67490C22048310600755110 /* KYPopInteractiveTransition.m in Sources */,
 				C64BBDEC20502A25000FC2C0 /* CardViewController.swift in Sources */,
