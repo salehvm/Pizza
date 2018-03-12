@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'AB58ADB57E55CE1BBDB86C8F63E4ECB5'
+               BlueprintIdentifier = 'C71DB4562227ABDAFD6F26BC0D02CCDE'
                BlueprintName = 'SideMenu'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'SideMenu.framework'>

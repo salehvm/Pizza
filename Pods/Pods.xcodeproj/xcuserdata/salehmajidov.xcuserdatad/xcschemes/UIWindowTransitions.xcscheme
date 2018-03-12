@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6AF299FFF6B3AAF81880018D808CBF82'
+               BlueprintIdentifier = '16E2A4CF5474830B33FC1B685A02CCC3'
                BlueprintName = 'UIWindowTransitions'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'UIWindowTransitions.framework'>

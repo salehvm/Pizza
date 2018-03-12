@@ -79,4 +79,8 @@ pod 'Stripe'
 pod 'PullToMakeSoup', '~> 2.0'
 pod 'PullToRefresher', :git => 'https://github.com/MindSea/PullToRefresh', :branch => 'fix-simultaneous-access'
 
+pod 'TTGEmojiRate', '~> 0.3'
+
 end
+
+

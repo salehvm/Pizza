@@ -37,6 +37,7 @@
 		C6A1938920529965009F3119 /* CountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A1938820529965009F3119 /* CountdownTimer.swift */; };
 		C6A1938B2052996E009F3119 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A1938A2052996E009F3119 /* CustomColors.swift */; };
 		C6A1938E2052A8B5009F3119 /* FarnhamDisplayMediumItal Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6A1938D2052A8B5009F3119 /* FarnhamDisplayMediumItal Regular.otf */; };
+		C6B85D6D2056927C00498E7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B85D6C2056927C00498E7B /* ViewController.swift */; };
 		C6E3E0DE20500C5C00E8D132 /* ScalingCarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E3E0DD20500C5C00E8D132 /* ScalingCarouselCell.swift */; };
 		C6E3E0E020500D3A00E8D132 /* ScalingCarouselLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E3E0DF20500D3A00E8D132 /* ScalingCarouselLayout.swift */; };
 /* End PBXBuildFile section */
@@ -77,6 +78,7 @@
 		C6A1938820529965009F3119 /* CountdownTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownTimer.swift; sourceTree = "<group>"; };
 		C6A1938A2052996E009F3119 /* CustomColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
 		C6A1938D2052A8B5009F3119 /* FarnhamDisplayMediumItal Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FarnhamDisplayMediumItal Regular.otf"; sourceTree = "<group>"; };
+		C6B85D6C2056927C00498E7B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C6E3E0DD20500C5C00E8D132 /* ScalingCarouselCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScalingCarouselCell.swift; sourceTree = "<group>"; };
 		C6E3E0DF20500D3A00E8D132 /* ScalingCarouselLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScalingCarouselLayout.swift; sourceTree = "<group>"; };
 		D7803CE408935F124416B775 /* Pods-Pizza 2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pizza 2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pizza 2/Pods-Pizza 2.release.xcconfig"; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 		C693F62E2047EA1F00A6BA93 /* Pizza 2 */ = {
 			isa = PBXGroup;
 			children = (
+				C6B85D6C2056927C00498E7B /* ViewController.swift */,
 				C6A1938C2052A8A0009F3119 /* Font */,
 				C6A193862052977C009F3119 /* ProgressBar.swift */,
 				C6A1938A2052996E009F3119 /* CustomColors.swift */,
@@ -346,6 +349,7 @@
 				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TTGEmojiRate/TTGEmojiRate.framework",
 				"${BUILT_PRODUCTS_DIR}/UIWindowTransitions/UIWindowTransitions.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -379,6 +383,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTGEmojiRate.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIWindowTransitions.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -431,6 +436,7 @@
 				C693F64D2047EFFD00A6BA93 /* VSTextField.swift in Sources */,
 				C6A1938520528D41009F3119 /* OrderProcessingViewController.swift in Sources */,
 				C64B261E204EE87A001FFDC3 /* RightMenuViewController.swift in Sources */,
+				C6B85D6D2056927C00498E7B /* ViewController.swift in Sources */,
 				C693F6502047EFFD00A6BA93 /* HelpFunctions.swift in Sources */,
 				C693F64F2047EFFD00A6BA93 /* CommonData.swift in Sources */,
 				C67CB613204F42AC0079BEFB /* PizzaListViewController.swift in Sources */,

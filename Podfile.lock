@@ -87,6 +87,7 @@ PODS:
   - SwiftDate (4.5.1)
   - SwiftMessages (4.1.0)
   - SwiftyJSON (4.0.0)
+  - TTGEmojiRate (0.3.0)
   - UIWindowTransitions (0.1.1)
 
 DEPENDENCIES:
@@ -118,6 +119,7 @@ DEPENDENCIES:
   - SwiftDate
   - SwiftMessages
   - SwiftyJSON
+  - TTGEmojiRate (~> 0.3)
   - UIWindowTransitions
 
 EXTERNAL SOURCES:
@@ -167,8 +169,9 @@ SPEC CHECKSUMS:
   SwiftDate: 7b56d42a221f582047287deb256b23fc5ed49a60
   SwiftMessages: 1bacc783c8f10bdfdc57c14860cae8a1f1fa6591
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  TTGEmojiRate: 9b295b22e42874acfd717a9ae606e259995b83d0
   UIWindowTransitions: 95836d4d85b824227909ada40a2cbf885eb26c69
 
-PODFILE CHECKSUM: 309b8897618035f013d92ff8857a52ab5cd4e6a1
+PODFILE CHECKSUM: 5858a91d4ba259e426b7aa36e9d516f46f86d076
 
 COCOAPODS: 1.4.0
