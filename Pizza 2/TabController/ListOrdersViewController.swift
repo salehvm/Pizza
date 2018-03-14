@@ -8,11 +8,12 @@
 
 import UIKit
 
-class ListOrdersViewController: UIViewController {
+class ListOrdersViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
 
     @IBOutlet weak var normalMenu: UIView!
     
+    @IBOutlet weak var tableView: UITableView!
     
     @IBOutlet weak var addMenu: UIView!
     
@@ -53,5 +54,18 @@ class ListOrdersViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        return 3
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell: UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+     
+        
+        return cell
+        
+    }
 
 }

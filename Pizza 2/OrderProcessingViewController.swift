@@ -43,7 +43,7 @@ class OrderProcessingViewController: UIViewController, CountdownTimerDelegate {
         let label = UILabel(frame:CGRect.zero)
         label.translatesAutoresizingMaskIntoConstraints = false
         label.font = UIFont.systemFont(ofSize: 24.0, weight: UIFont.Weight.light)
-        label.textColor = UIColor.white
+        label.textColor = UIColor.black
         label.textAlignment = .center
         label.text = "Sifaris Hazir!"
         
