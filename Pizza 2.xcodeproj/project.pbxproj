@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		2446A1339C622CF756B0812F /* Pods_Pizza_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E974B03FB275ECA57D338A3B /* Pods_Pizza_2.framework */; };
 		C602A9D5204FC6AF0011AE89 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C602A9D4204FC6AF0011AE89 /* HomeViewController.swift */; };
+		C60B38E4205A77B5008C16C2 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B38E3205A77B5008C16C2 /* ContactViewController.swift */; };
+		C60B38EC205AA0FA008C16C2 /* RightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B38EA205AA0FA008C16C2 /* RightTableViewCell.swift */; };
+		C60B38ED205AA0FA008C16C2 /* RightTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C60B38EB205AA0FA008C16C2 /* RightTableViewCell.xib */; };
+		C60B38F0205AA105008C16C2 /* LeftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B38EE205AA105008C16C2 /* LeftTableViewCell.swift */; };
+		C60B38F1205AA105008C16C2 /* LeftTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C60B38EF205AA105008C16C2 /* LeftTableViewCell.xib */; };
+		C60B38F4205AB087008C16C2 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B38F3205AB087008C16C2 /* Message.swift */; };
 		C638CC34204FF4E200AC7DF3 /* ScalingCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C638CC33204FF4E200AC7DF3 /* ScalingCarouselView.swift */; };
 		C645D63920555B4300184F38 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C645D63820555B4300184F38 /* ProfileViewController.swift */; };
 		C64B2613204EB57F001FFDC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C64B2612204EB57F001FFDC3 /* Images.xcassets */; };
@@ -45,6 +51,12 @@
 /* Begin PBXFileReference section */
 		08B3932149E31E3E283A55CA /* Pods-Pizza 2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pizza 2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pizza 2/Pods-Pizza 2.debug.xcconfig"; sourceTree = "<group>"; };
 		C602A9D4204FC6AF0011AE89 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C60B38E3205A77B5008C16C2 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		C60B38EA205AA0FA008C16C2 /* RightTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightTableViewCell.swift; sourceTree = "<group>"; };
+		C60B38EB205AA0FA008C16C2 /* RightTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RightTableViewCell.xib; sourceTree = "<group>"; };
+		C60B38EE205AA105008C16C2 /* LeftTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftTableViewCell.swift; sourceTree = "<group>"; };
+		C60B38EF205AA105008C16C2 /* LeftTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftTableViewCell.xib; sourceTree = "<group>"; };
+		C60B38F3205AB087008C16C2 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		C638CC33204FF4E200AC7DF3 /* ScalingCarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScalingCarouselView.swift; sourceTree = "<group>"; };
 		C645D63820555B4300184F38 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		C64B2612204EB57F001FFDC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -114,6 +126,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C60B38E5205AA098008C16C2 /* ViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				C60B38EA205AA0FA008C16C2 /* RightTableViewCell.swift */,
+				C60B38EB205AA0FA008C16C2 /* RightTableViewCell.xib */,
+				C60B38EE205AA105008C16C2 /* LeftTableViewCell.swift */,
+				C60B38EF205AA105008C16C2 /* LeftTableViewCell.xib */,
+			);
+			path = ViewCells;
+			sourceTree = "<group>";
+		};
+		C60B38F2205AB077008C16C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C60B38F3205AB087008C16C2 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		C645D6342055338600184F38 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +206,8 @@
 		C693F62E2047EA1F00A6BA93 /* Pizza 2 */ = {
 			isa = PBXGroup;
 			children = (
+				C60B38F2205AB077008C16C2 /* Models */,
+				C60B38E5205AA098008C16C2 /* ViewCells */,
 				C6B85D6C2056927C00498E7B /* ViewController.swift */,
 				C6A1938C2052A8A0009F3119 /* Font */,
 				C6A193862052977C009F3119 /* ProgressBar.swift */,
@@ -198,6 +231,7 @@
 				C64BBDEB20502A25000FC2C0 /* CardViewController.swift */,
 				C6A1938420528D41009F3119 /* OrderProcessingViewController.swift */,
 				C645D63820555B4300184F38 /* ProfileViewController.swift */,
+				C60B38E3205A77B5008C16C2 /* ContactViewController.swift */,
 			);
 			path = "Pizza 2";
 			sourceTree = "<group>";
@@ -286,6 +320,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C60B38F1205AA105008C16C2 /* LeftTableViewCell.xib in Resources */,
+				C60B38ED205AA0FA008C16C2 /* RightTableViewCell.xib in Resources */,
 				C64B2613204EB57F001FFDC3 /* Images.xcassets in Resources */,
 				C693F63D2047EA2000A6BA93 /* LaunchScreen.storyboard in Resources */,
 				C693F6352047EA2000A6BA93 /* Main.storyboard in Resources */,
@@ -429,13 +465,17 @@
 				C64BBDEC20502A25000FC2C0 /* CardViewController.swift in Sources */,
 				C693F6382047EA2000A6BA93 /* Pizza_2.xcdatamodeld in Sources */,
 				C693F6302047EA1F00A6BA93 /* AppDelegate.swift in Sources */,
+				C60B38E4205A77B5008C16C2 /* ContactViewController.swift in Sources */,
+				C60B38F4205AB087008C16C2 /* Message.swift in Sources */,
 				C64B2617204ED7E1001FFDC3 /* SideMenu.swift in Sources */,
 				C638CC34204FF4E200AC7DF3 /* ScalingCarouselView.swift in Sources */,
 				C6E3E0DE20500C5C00E8D132 /* ScalingCarouselCell.swift in Sources */,
+				C60B38F0205AA105008C16C2 /* LeftTableViewCell.swift in Sources */,
 				C6A1938B2052996E009F3119 /* CustomColors.swift in Sources */,
 				C693F64D2047EFFD00A6BA93 /* VSTextField.swift in Sources */,
 				C6A1938520528D41009F3119 /* OrderProcessingViewController.swift in Sources */,
 				C64B261E204EE87A001FFDC3 /* RightMenuViewController.swift in Sources */,
+				C60B38EC205AA0FA008C16C2 /* RightTableViewCell.swift in Sources */,
 				C6B85D6D2056927C00498E7B /* ViewController.swift in Sources */,
 				C693F6502047EFFD00A6BA93 /* HelpFunctions.swift in Sources */,
 				C693F64F2047EFFD00A6BA93 /* CommonData.swift in Sources */,
