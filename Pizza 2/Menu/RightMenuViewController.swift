@@ -20,6 +20,8 @@ class RightMenuViewController: UIViewController {
     @IBOutlet weak var contactView: UIView!
     @IBOutlet weak var logoutView: UIView!
     
+ 
+    
     //MARK: - Variables
     
     var tapGestureRecognizer = UITapGestureRecognizer()
@@ -38,10 +40,37 @@ class RightMenuViewController: UIViewController {
     }
     
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // Hide the navigation bar on the this view controller
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+    
+
     //MARK: - Click Handles
     
     func initVars(){
         self.tapGestureRecognizer.numberOfTapsRequired = 1
+        
+        
+        self.tapGestureRecognizer = UITapGestureRecognizer(
+            target: self,
+            action: #selector(homeRoute))
+        self.homeView.addGestureRecognizer(tapGestureRecognizer)
+        
+    }
+    
+   @objc func homeRoute(){
+    
+    if let vc = storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as? HomeViewController {
+
+        self.navigationController?.pushViewController(vc, animated: true)
+        print(vc)
+    }
+    
+    
+
     }
     
     func initViews(){}

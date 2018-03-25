@@ -45,6 +45,7 @@ class HomeViewController: UIViewController {
     }
     
     
+    
     func initVars(){
     
             self.tapGestureRecognizer.numberOfTapsRequired = 1
@@ -120,7 +121,8 @@ extension HomeViewController: UICollectionViewDataSource {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
         
         if let scalingCell = cell as? ScalingCarouselCell {
-            scalingCell.mainView.backgroundColor = .blue
+            scalingCell.mainView.backgroundColor = .clear
+        
         }
         
         return cell
